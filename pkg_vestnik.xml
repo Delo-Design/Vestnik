@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.9" type="package" method="upgrade">
+	<name>PKG_VESTNIK</name>
+	<packagename>vestnik</packagename>
+	<author>Delo Design</author>
+	<creationDate>May 2021</creationDate>
+	<copyright>Copyright © 2021 Delo Design. All rights reserved.</copyright>
+	<license>https://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>boss@delo-design.ru</authorEmail>
+	<authorUrl>https://delo-design.ru</authorUrl>
+	<version>0.0.1-dev</version>
+	<description>PKG_VESTNIK_DESCRIPTION</description>
+	<scriptfile>script.php</scriptfile>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.pkg_vestnik.sys.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.pkg_vestnik.sys.ini</language>
+	</languages>
+	<files>
+		<folder type="component" id="com_vestnik">com_vestnik</folder>
+		<folder type="plugin" group="system" id="vestnik">plg_system_vestnik</folder>
+		<folder type="plugin" group="vestnik" id="facebook">plg_vestnik_facebook</folder>
+		<folder type="plugin" group="vestnik" id="instagram">plg_vestnik_instagram</folder>
+		<folder type="plugin" group="vestnik" id="twitter">plg_vestnik_twitter</folder>
+		<folder type="plugin" group="vestnik" id="vk">plg_vestnik_vk</folder>
+		<folder type="plugin" group="vestnik" id="odnoklassniki">plg_vestnik_odnoklassniki</folder>
+		<folder type="plugin" group="vestnik" id="telegram">plg_vestnik_telegram</folder>
+		<folder type="plugin" group="vestnik" id="discord">plg_vestnik_discord</folder>
+		<folder type="module" client="site" id="mod_vestnik_wall">mod_vestnik_wall</folder>
+	</files>
+</extension>
