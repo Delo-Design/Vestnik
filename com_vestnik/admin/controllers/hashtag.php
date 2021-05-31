@@ -11,3 +11,16 @@
 
 defined('_JEXEC') or die;
 
+use Joomla\CMS\MVC\Controller\FormController;
+
+class VestnikControllerHashtag extends FormController
+{
+	/**
+	 * The prefix to use with controller messages.
+	 *
+	 * @var  string
+	 *
+	 * @since  __DEPLOY_VERSION__
+	 */
+	protected $text_prefix = 'COM_VESTNIK_HASHTAG';
+}

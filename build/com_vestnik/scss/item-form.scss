@@ -59,8 +59,12 @@
 					}
 				}
 			}
-		}
 
+			.input-xxlarge {
+				width: 100%;
+				max-width: 530px;
+			}
+		}
 
 		@media (max-width: 1599px) {
 			.control-label {
@@ -80,8 +84,10 @@
 			}
 		}
 	}
+
 	.introtext {
 		max-width: 1000px;
+
 		.CodeMirror {
 			max-height: 300px;
 		}

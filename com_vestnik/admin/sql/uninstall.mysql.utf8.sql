@@ -8,3 +8,4 @@
  * @link        https://delo-design.ru/
  */
 
+DROP TABLE `#__vestnik_hashtags`;

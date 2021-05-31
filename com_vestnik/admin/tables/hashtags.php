@@ -11,3 +11,22 @@
 
 defined('_JEXEC') or die;
 
+use Joomla\CMS\Table\Table;
+
+class VestnikTableHashtags extends Table
+{
+	/**
+	 * Constructor.
+	 *
+	 * @param   JDatabaseDriver &$db  Database connector object.
+	 *
+	 * @since  __DEPLOY_VERSION__
+	 */
+	function __construct(&$db)
+	{
+		parent::__construct('#__vestnik_hashtags', 'id', $db);
+
+		// Set the alias since the column is called state
+		$this->setColumnAlias('published', 'state');
+	}
+}
